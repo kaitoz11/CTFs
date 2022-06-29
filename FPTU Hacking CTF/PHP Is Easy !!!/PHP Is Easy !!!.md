@@ -6,6 +6,7 @@
 ---
 ## 1. Analyze
 The challenge provided a simple PHP source:
+
 ![](./media/2.png)
 So, to get the `flag`, we need to pass in a query parameter `0ni0n`, which can not be `"0gdVIdSQL8Cm"` and the MD5 hash of it is equal to itself.
 
