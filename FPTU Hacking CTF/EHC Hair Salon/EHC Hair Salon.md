@@ -12,9 +12,11 @@
 ## 1. Analyze:
 
 Messing around with the page, we can see a POST form in the main page.
+
 ![2](./media/2.png)
 
 I tried insert a string: `aaaaa` and here's what I got.
+
 ![3](./media/3.png)
 
 After inserting javascript, in this case: `<script>alert(1)</script>`, we can see that this page XSS vulnerability.
