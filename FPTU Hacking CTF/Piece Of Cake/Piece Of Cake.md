@@ -6,6 +6,7 @@
 ---
 ## 1. Analyze
 The challenge provided a PHP source:
+
 ![](./media/2.png)
 Reading the source code, we can see that there're seperately 2 part. The `flag` should appear after solving `$onion1` and `$onion2`.
 
@@ -31,6 +32,7 @@ The idea of the first part is pretty much similar to the [PHP Is Easy !!!](../PH
 
 
 Here's what we got:
+
 ![](./media/3.PNG)
 
 Seems like we're on the right path.
