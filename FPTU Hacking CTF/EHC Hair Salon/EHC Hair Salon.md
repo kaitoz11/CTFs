@@ -1,6 +1,6 @@
 # EHC Hair Salon
 
-![1](./media/1.PNG)
+![](./media/1.png)
 
 **Category:** Web Exploitation
 
