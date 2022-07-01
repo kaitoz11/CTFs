@@ -8,6 +8,7 @@
 The challenge provided a simple PHP source:
 
 ![](./media/2.png)
+
 So, to get the `flag`, we need to pass in a query parameter `0ni0n`, which can not be `"0gdVIdSQL8Cm"` and the MD5 hash of it is equal to itself.
 
 The most noticeable thing are the comparisons. They are using `"=="` ("loose" comparison mode) instead of `"==="` ("strict" comparison mode). Now, we know that this can be exploited using [PHP type juggling bugs](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf).
