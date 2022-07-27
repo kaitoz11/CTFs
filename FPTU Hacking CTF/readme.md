@@ -7,3 +7,4 @@
 
 # Team write-ups
 - [lucasgreen138](https://github.com/lucasgreen138/CTF-Write-up/tree/main/FPTUHacking_CTF_2022)
+- [bananNat](https://github.com/bananNat/Writeups/tree/main/FPTU%20Hacking%20CTF%202022)
