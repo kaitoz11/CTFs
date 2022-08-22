@@ -15,7 +15,7 @@ The most noticeable thing are the comparisons. They are using `"=="` ("loose" co
 
 ## 2. Solution
 
-The easiest way to break this thing is to provide a number starting with `0e`, which MD5 hash begins with `0e` as well and contains only numbers after it.
+The easiest way to break this thing is to provide a number starting with `0e` ( also used in [Piece Of Cake](../Piece%20Of%20Cake/Piece%20Of%20Cake.md) ), which MD5 hash begins with `0e` as well and contains only numbers after it.
 
 So, I used a [python script](./media/bruteforce.py) to find the exact entry. And after few minutes of bruteforcing, I found `"0e215962017"`.
 ![brute](./media/brute.png)
